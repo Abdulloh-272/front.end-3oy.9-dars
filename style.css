@@ -151,6 +151,8 @@ color: rgba(54, 83, 107, 1);
     .container {
         padding: 0 50px;
     }
+
+    
     
 
 .hero-parent {
@@ -184,9 +186,11 @@ text-align: center;
         text-align: center;
     }
 
-    .start-build {
+    .hero-left h2 {
         font-size: 50px;
         text-align: center;
+
+        
     }
 
     
@@ -220,7 +224,49 @@ text-align: center;
         flex-wrap: wrap;
     }
 
+    .hero-parent {
+        display: flex;
+        justify-content: center;
+    }
 
+    .hero-phone {
+        text-align: center;
+    }
+
+    .hero-left h2 {
+        font-size: 50px;
+    }
+
+    .footer-parent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .easy-title {
+        text-align: center;
+
+    }
+
+    .easy-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .easy-p {
+        font-size: 10px;
+     
+    }
+
+    .easy-p-wrapper {
+        
+        display: flex;
+        justify-content: center;
+    }
+
+    .easy {
+        font-size: 30px;
+    }
   
 }
 
@@ -229,5 +275,31 @@ text-align: center;
         padding: 0 5px;
     }
 
+    .hero-left h2 {
+        font-size: 30px;
+       
+
+    }
+
+    .section2-img {
+        width: 100px;
+        height: 30px;
+    }
+
+    .who {
+        font-size: 25px;
+    }
+
+
+    .who-p {
+        font-size: 10px;
+        width: 400px;
+    }
+
+    .who-btn {
+        display: flex;
+        justify-content: center;
+        
+    }
 
 }
